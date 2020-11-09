@@ -5,3 +5,32 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# puts "Deleting old records"
+# Flower.destroy_all
+
+puts "creating new records"
+
+10.times do
+    flower = Flower.create!(
+        name: Faker::Artist.name,
+        image_url: "https://cdn.shopify.com/s/files/1/0111/8735/5711/products/alaska-red-poppy-flower_720x.jpg?v=1571682569" ,
+        description: Faker::Cosmere.spren
+    )
+end
+
+10.times do 
+    Bouquet.create!(
+        note: "Write note here"
+    )
+end
+
+5.times do
+    FlowerBouquet.create(
+        flower_id: Flower.all.sample.id,
+        bouquet_id: Bouquet.all.sample.id
+    )
+end
+
+
+
+puts "Done!"
