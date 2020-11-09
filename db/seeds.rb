@@ -14,7 +14,7 @@ puts "creating new records"
     flower = Flower.create!(
         name: Faker::Artist.name,
         image_url: "https://cdn.shopify.com/s/files/1/0111/8735/5711/products/alaska-red-poppy-flower_720x.jpg?v=1571682569" ,
-        description: Faker::Hipster.words 
+        description: Faker::Cosmere.spren
     )
 end
 
