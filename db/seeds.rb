@@ -18,9 +18,16 @@ puts "creating new records"
     )
 end
 
-5.times do 
+10.times do 
     Bouquet.create!(
         note: "Write note here"
+    )
+end
+
+5.times do
+    FlowerBouquet.create(
+        flower_id: Flower.all.sample.id,
+        bouquet_id: Bouquet.all.sample.id
     )
 end
 

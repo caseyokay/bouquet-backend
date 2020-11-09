@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 2020_11_09_221652) do
   end
 
   create_table "flower_bouquets", force: :cascade do |t|
-    t.string "flower_id"
-    t.string "bouquet_id"
+    t.integer "flower_id"
+    t.integer "bouquet_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
