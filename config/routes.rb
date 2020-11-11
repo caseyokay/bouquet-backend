@@ -9,4 +9,11 @@ Rails.application.routes.draw do
     end
   end
 
+  #api/v1/bouquets/:id
+  namespace :api do
+    namespace :v1 do
+      resources :bouquets, only: [:show]
+    end
+  end
+  
 end
