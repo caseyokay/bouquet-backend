@@ -17,4 +17,11 @@ Rails.application.routes.draw do
     end
   end
   
+   #api/v1/flower_bouquets/:id
+   namespace :api do
+    namespace :v1 do
+      resources :flower_bouquets
+    end
+  end
+  
 end

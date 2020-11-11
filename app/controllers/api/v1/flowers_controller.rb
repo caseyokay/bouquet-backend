@@ -5,7 +5,7 @@ class Api::V1::FlowersController < ApplicationController
   end
 
   def index
-    @flowers = Flower.all 
-    render json: @flowers
+    flowers = Flower.all 
+    render json: flowers
   end
 end
