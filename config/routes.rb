@@ -5,14 +5,15 @@ Rails.application.routes.draw do
   #GET /api/v1/flowers/:id
   namespace :api do
     namespace :v1 do
-      resources :flowers, only: [:show]
+      resources :flowers 
+      # , only: [:show]
     end
   end
 
   #api/v1/bouquets/:id
   namespace :api do
     namespace :v1 do
-      resources :bouquets, only: [:show]
+      resources :bouquets
     end
   end
   
