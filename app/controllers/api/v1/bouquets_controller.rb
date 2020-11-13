@@ -8,4 +8,13 @@ class Api::V1::BouquetsController < ApplicationController
     bouquets = Bouquet.all 
     render json: bouquets
   end
+
+  def update
+    bouquet = Bouquet.find(params[:id])
+    bouquet.note = params[:note]
+    bouquet.save
+    render json: bouquet
+  end
+
+
 end

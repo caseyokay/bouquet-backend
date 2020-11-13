@@ -9,9 +9,10 @@ class Api::V1::FlowerBouquetsController < ApplicationController
         render json: flower_bouquets
       end
 
+    
       def create
         flower_bouquet = FlowerBouquet.create!(
-            flower_id: params[:flower_id]
+            flower_id: params[:flower_id],
             bouquet_id: params[:bouquet_id]
         )
         render json: flower_bouquet
