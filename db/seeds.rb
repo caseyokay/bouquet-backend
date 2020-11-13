@@ -26,6 +26,16 @@ Flower.create(
     description: "Your love is reciprocated"
 )
 Flower.create(
+    name: "Aster",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Asteraceae_-_Aster_amellus.JPG/440px-Asteraceae_-_Aster_amellus.JPG",
+    description: "Symbol of love, daintiness, talisman of love, trusting. 'Take Care Of Yourself For Me'"
+)
+Flower.create(
+    name: "Bells of Ireland",
+    image_url: "https://images-na.ssl-images-amazon.com/images/I/71yn1VZM6pL._AC_SX522_.jpg",
+    description: "Good luck"
+)
+Flower.create(
     name: "Yellow Carnations",
     image_url: "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/39b52c4cabb46819553175347e38b212/2/0/2074_carnation.paleblonde.cut_car_nul_yel_prd_001_1.jpg",
     description: "Rejection, disdain, disappointment"
@@ -35,6 +45,23 @@ Flower.create(
     image_url: "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/39b52c4cabb46819553175347e38b212/1/1/117732_carnation.pinklemonade.cut_car_nul_plp_prd_001_1.jpg",
     description: "Pure love: I'll never forget you"
 )
+
+Flower.create(
+    name: "Chrysanthemum",
+    image_url: "https://bluestoneperennials.global.ssl.fastly.net/img/MJELO/650/MJELO_0_Mum_Jessica-Louise.1491356187.jpg",
+    description: "You're A Wonderful Friend; Cheerfulness and Rest"
+)
+Flower.create(
+    name: "Daffodil",
+    image_url: "https://s3.amazonaws.com/cdn0.michiganbulb.com/images/350/85480.jpg",
+    description: "Uncertainty, chivalry, respect; forgiveness"
+)
+Flower.create(
+    name: "Dahlia",
+    image_url: "https://s3.eu-west-2.amazonaws.com/jparkers/1000/1006426.jpg",
+    description: "Good taste"
+)
+
 Flower.create(
     name: "Elder Flower",
     image_url: "https://upload.wikimedia.org/wikipedia/commons/8/81/Sambucus_nigra0.jpg",
@@ -56,6 +83,52 @@ Flower.create(
     description: "Faith and hope"
 )
 
+Flower.create(
+    name: "Gladiolus",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/0_Gladiolus_italicus_-_Samo%C3%ABns_%281%29.JPG/440px-0_Gladiolus_italicus_-_Samo%C3%ABns_%281%29.JPG",
+    description: "Strength of character, honor, conviction"
+)
+
+Flower.create(
+    name: "Red Poppy",
+    image_url: "https://klv-oboi.kz/img/gallery/5/thumbs/thumb_l_1138.jpg",
+    description: "Pleasure, sacrifice, remembrance"
+)
+
+Flower.create(
+    name: "Yellow Poppy",
+    image_url: "https://www.growjoy.com/store/pc/catalog/spring_fever_yellow_papaver_plant_444_detail.jpg",
+    description: "Wealth, success"
+)
+
+Flower.create(
+    name: "Orchid",
+    image_url: "https://i.pinimg.com/originals/1f/d8/f8/1fd8f88e3336b025824b58d1e1ebc2e9.jpg",
+    description: "Refined beauty"
+)
+
+Flower.create(
+    name: "Ox-eye Daisy",
+    image_url: "https://i.pinimg.com/originals/d8/c9/4e/d8c94ea65ee1c792c571e4bbe4d98b39.jpg",
+    description: "Patience; Loyal Love"
+)
+Flower.create(
+    name: "Marigold",
+    image_url: "https://www.burpee.com/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwbf4a05bc/Images/Product%20Images/prod000257/prod000257.jpg",
+    description: "Pain and grief"
+)
+
+Flower.create(
+    name: "Mimosa (Мимоза)",
+    image_url: "https://avatars.mds.yandex.net/get-zen_doc/30229/pub_5c63bebac6564a00acea5743_5c63bf8bc6564a00acea574d/scale_2400",
+    description: "An emblem of femininity and freedom; Symbolizes respect, elegance, dignity, abundance, and kindness"
+)
+Flower.create(
+    name: "Yellow Tulip",
+    image_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/yellow-tulip-garden-rebecca-renfro.jpg",
+    description: "Cheerful thoughts, Sunshine, Hope"
+)
+
 
 
 # Flower.create(
@@ -66,7 +139,7 @@ Flower.create(
 
 10.times do 
     Bouquet.create!(
-        note: "Write note here"
+        note: "Write note here ✨"
     )
 end
 
