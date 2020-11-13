@@ -9,9 +9,9 @@ class Api::V1::FlowersController < ApplicationController
     render json: flowers
   end
 
-  def destroy
-    flower = Flower.find(params[:id])
-    flower.destroy!
-    render json: {}
-  end
+  # def destroy
+  #   flower = Flower.find(params[:id])
+  #   flower.destroy!
+  #   render json: {}
+  # end
 end

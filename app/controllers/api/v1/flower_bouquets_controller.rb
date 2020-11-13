@@ -17,4 +17,11 @@ class Api::V1::FlowerBouquetsController < ApplicationController
         )
         render json: flower_bouquet
     end
+
+    def destroy
+      flower_bouquet = FlowerBouquet.find(params[:id])
+      flower_bouquet.destroy!
+      render json: {}
+    end
+    
 end
