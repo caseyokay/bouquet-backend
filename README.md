@@ -1,24 +1,10 @@
-# README
+Bouquet Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Send a bouquet with a message through the language of flowers (Floriography) which attributes meaning to color and type of flowers. 
 
-Things you may want to cover:
+##Specs:
+- Assembled application with Rails as an API and Javascript for user interface
+- Implemented functionality to allow the user to select flowers for their bouquet based on desired meaning 
+- Javascript, Rails, PostgreSQL, HTML/CSS - Frontend, Backend
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Backend: https://github.com/caseyokay/project-frontend
